@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Comparison:Latitude vs X" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Starter HTML</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <!-- YOUR CUSTOM STYLESHEETS GO HERE -->
+</head>
+
+<body>
+    <!-- YOUR HTML CODE GOES HERE -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="HTMLFile2.html">Comparison <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Plots
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="MaxTemperature.html">Max Temperature</a>
+                        <a class="dropdown-item" href="#">Humidity</a>
+                        <a class="dropdown-item" href="#">Cloudiness</a>
+                        <a class="dropdown-item" href="#">Wind Speed</a>
+                    </div>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Comparison: Latitude vs. X</h1>        
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 pad top">
+                <div>
+                    <h2>vs. Max Temperature</h2>
+                    <img src="Fig1.png" class="rounded" width="460" height="345">
+                </div>
+            </div>
+            <div class="col-6 pad top">
+                <div>
+                    <h2>vs. Humidity</h2>
+                    <img src="Fig2.png" class="rounded" width="460" height="345">
+                </div>
+            </div>
+            <div class="col-6 pad top">
+                <div>
+                    <h2>vs. Cloudiness</h2>
+                    <img src="Fig3.png" class="rounded" width="460" height="345">
+                </div>
+            </div>
+            <div class="col-6 pad top">
+                <div>
+                    <h2>vs. Wind Speed</h2>
+                    <img src="Fig4.png" class="rounded" width="460" height="345">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
